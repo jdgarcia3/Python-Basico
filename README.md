@@ -1,2 +1,2 @@
 # Python-Basico
-Aprender sintaxis basica de python y funcionalidades
+Aprender sintaxis básica de python y funcionalidades
