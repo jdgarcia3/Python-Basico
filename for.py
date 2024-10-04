@@ -23,3 +23,8 @@ for letra in cadena:
     else:
         print("Letra no encontrada")
 print("Esta por fuera del ciclo for")
+
+#Ejemplo 2
+mul = int(input("Digite la tabla de multiplicar que desea: "))
+for i in range(1,13):
+    print(f"2 X {i} = {i*2}")
