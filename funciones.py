@@ -45,8 +45,8 @@ def multiplicacion (num1,num2):
     """
     rta = num1 * num2
     return rta
-
+#Llamar funcion
 rta = multiplicacion(a,b)
 print(f"El resultado de la * = {rta}")
-
+#Llamar funcion
 suma(rta,a)
