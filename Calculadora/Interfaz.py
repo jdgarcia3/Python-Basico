@@ -33,7 +33,6 @@ def opcion_seleccionada(op):
         print(f"Usted selecciono la opción CIRCULO")
         return CIRCULO
     elif op == 4:
-        print(f"Saliendo de la calculadora....")
         return SALIR
     else:
         print(f"Opcion no valida!!!")
@@ -68,3 +67,28 @@ def solicitud_circulo ():
     """
     radio = float(input("Digite el radio: "))
     return radio
+
+#Mostrar informacion areas
+#Mostrar area cuadrado
+def mostrar_cuadrado(area):
+    """
+    Muestra el area del cuadrado
+    tipo float
+    """
+    print(f"El area del cuadrado es: {area}")
+
+#Mostrar area triangulo
+def mostrar_triangulo(area):
+    """
+    Muestra el area del triangulo
+    tipo float
+    """
+    print(f"El area del triangulo es: {area}")
+
+#Mostrar area circulo
+def mostrar_circulo(area):
+    """
+    Muestra el area del circulo
+    tipo float
+    """
+    print(f"El area del circulo es: {area}")
